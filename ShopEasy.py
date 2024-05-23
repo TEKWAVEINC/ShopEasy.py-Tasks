@@ -31,3 +31,4 @@ class UserAuthentication:
         if username in self.users and self.users[username]['password'] == password:
             return True
         return False
+
