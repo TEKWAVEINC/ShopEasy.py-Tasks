@@ -13,7 +13,9 @@ class UserProfile:
             self.profile_picture = profile_picture
 
     def __str__(self):
-        return f"Username: {self.username}\nEmail: {self.email}\nFull Name: {self.full_name}\nBio: {self.bio}\nProfile Picture: {self.profile_picture}"
+        return (f"Username: {self.username}\nEmail: {self.email}\nFull Name: {self.full_name}\nBio:"
+                f"{self.bio}\nProfile Picture: {self.profile_picture}")
+
 
 class UserAuthentication:
     def __init__(self):
